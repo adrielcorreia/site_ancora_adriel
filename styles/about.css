@@ -1,0 +1,29 @@
+.section-about {
+    display: grid;
+    grid-template-columns: 10vw 1fr 1fr 10vw;
+    grid-template-rows: 1fr 70vh;
+}
+
+.know-me-skills {
+    grid-column: 2;
+}
+
+.myskills {
+    display: flex;
+    row-gap: 2rem;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+.skills {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.individual-skill {
+    background: rgba(85, 0, 85, 0.077);
+    padding: 0.75rem;
+    border-radius: 0.3rem;
+    color: rgb(161, 79, 161);   
+}
