@@ -17,22 +17,28 @@ body {
 }
 
 header {
-    width: 100vw;
+    width: 100%;
+    height: 0;
     background: #320046;
     position: fixed;
     z-index: 1000;
     box-shadow: 0px 0px 15px 1px rgba(30, 0, 45, 0.5);
 }
 
+#ham, .header-menu {
+    z-index: 0;
+    background: #320046;
+}
+
 .header-content {
+    background: #320046;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-transform: uppercase;
     font-weight: 600;
-    padding: 1.25rem;
-    padding-left: 3rem;
-    padding-right: 5rem;
+    padding: 1.25rem 3rem;
     letter-spacing: 1px;
 }
 
@@ -50,20 +56,16 @@ header {
     border-radius: 2rem;
 }
 
-.header-nav {
-    padding-left: 30rem;
-}
-
 .header-nav > ul {
     display: flex;
     align-items: center;
     column-gap: 4rem;
-    font-size: 0.9rem;
 }
 
 .nav-items {
-    color: darkorchid;
+    color: #9932cc;
     transition: .5s;
+    font-size: 0.9rem;
 }
 
 .nav-items:hover {
@@ -197,7 +199,7 @@ header {
 }
 
 .span-normal-blue {
-    color: #000041;
+    color: #000056af;
 }
 
 .h2-blue {
@@ -224,10 +226,6 @@ footer {
     justify-content: space-between;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     padding-bottom: 5rem;
-}
-
-#adriel {
-    grid-column: 2;
 }
 
 .socials-footer {
