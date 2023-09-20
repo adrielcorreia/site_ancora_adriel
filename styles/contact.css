@@ -6,6 +6,10 @@
     background: linear-gradient(to right, rgba(0, 0, 50, 0.95), rgba(100, 0, 100, 0.8)), url("../assets/common-bg.svg");
 }
 
+.section-contact .sca-span-purple {
+    color: rgba(207, 110, 255, 0.8);
+}
+
 form {
     padding: 2rem;
     display: flex;

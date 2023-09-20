@@ -79,8 +79,8 @@
 }
 
 #mouse-point {
-    transform: translateY(-0.65rem);
-    height: 12%;
+    transform: translateY(-0.8rem);
+    height: 5px;
     background: darkorchid;
     color: transparent;
     border-radius: 50%;
