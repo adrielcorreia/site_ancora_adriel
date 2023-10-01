@@ -29,6 +29,8 @@ header {
 .header-menu {
     display: none;
     background: #320046;
+    overflow: hidden;
+    height: 0;
     transition: .5s;
 }
 

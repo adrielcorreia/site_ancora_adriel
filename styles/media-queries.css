@@ -416,7 +416,6 @@
 
     .header-menu {
         display: block;
-        transform: translateY(-100%);
     }
 
     #menu-ul {
