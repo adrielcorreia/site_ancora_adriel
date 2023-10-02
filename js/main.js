@@ -3,8 +3,8 @@ let ham_active = false;
 const ham_button = document.getElementById('ham')
 const header_menu = document.querySelector(".header-menu");
 const ul = document.querySelector('#menu-ul')
-const ullHeight = getComputedStyle(ul).height;
-console.log(ullHeight)
+const ul_height = getComputedStyle(ul).height;
+console.log(ul_height)
 
 ham_button.onmouseover = (event) => {
     if (ham_active == false) {
